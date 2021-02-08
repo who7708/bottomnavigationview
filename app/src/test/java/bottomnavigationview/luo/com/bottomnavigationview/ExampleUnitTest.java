@@ -1,4 +1,4 @@
-package bottomnavigationview.luo.com.bottomnavigationview02;
+package bottomnavigationview.luo.com.bottomnavigationview;
 
 import org.junit.Test;
 

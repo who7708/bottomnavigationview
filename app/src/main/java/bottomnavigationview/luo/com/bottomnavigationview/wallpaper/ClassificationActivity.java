@@ -1,11 +1,11 @@
-package bottomnavigationview.luo.com.bottomnavigationview02.wallpaper;
+package bottomnavigationview.luo.com.bottomnavigationview.wallpaper;
 
 import android.content.Intent;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -14,13 +14,13 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import bottomnavigationview.luo.com.bottomnavigationview02.PhotoShowActivity;
-import bottomnavigationview.luo.com.bottomnavigationview02.R;
-import bottomnavigationview.luo.com.bottomnavigationview02.adapter.RecommendAdapter;
-import bottomnavigationview.luo.com.bottomnavigationview02.bean.BaseResponse;
-import bottomnavigationview.luo.com.bottomnavigationview02.http.GetRequestInterface;
-import bottomnavigationview.luo.com.bottomnavigationview02.http.NetWorkManager;
-import bottomnavigationview.luo.com.bottomnavigationview02.utils.Tools;
+import bottomnavigationview.luo.com.bottomnavigationview.PhotoShowActivity;
+import bottomnavigationview.luo.com.bottomnavigationview.R;
+import bottomnavigationview.luo.com.bottomnavigationview.adapter.RecommendAdapter;
+import bottomnavigationview.luo.com.bottomnavigationview.bean.BaseResponse;
+import bottomnavigationview.luo.com.bottomnavigationview.http.GetRequestInterface;
+import bottomnavigationview.luo.com.bottomnavigationview.http.NetWorkManager;
+import bottomnavigationview.luo.com.bottomnavigationview.utils.Tools;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

@@ -1,21 +1,21 @@
-package bottomnavigationview.luo.com.bottomnavigationview02;
+package bottomnavigationview.luo.com.bottomnavigationview;
 
 
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.annotation.NonNull;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import bottomnavigationview.luo.com.bottomnavigationview02.fragment.MusicFragment;
-import bottomnavigationview.luo.com.bottomnavigationview02.fragment.MyFragment;
-import bottomnavigationview.luo.com.bottomnavigationview02.fragment.WallpaperFragment;
+import bottomnavigationview.luo.com.bottomnavigationview.fragment.MusicFragment;
+import bottomnavigationview.luo.com.bottomnavigationview.fragment.MyFragment;
+import bottomnavigationview.luo.com.bottomnavigationview.fragment.WallpaperFragment;
 
 public class MainActivity extends AppCompatActivity {
 

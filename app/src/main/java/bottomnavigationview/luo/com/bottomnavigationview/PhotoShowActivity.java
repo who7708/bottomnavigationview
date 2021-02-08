@@ -1,7 +1,7 @@
-package bottomnavigationview.luo.com.bottomnavigationview02;
+package bottomnavigationview.luo.com.bottomnavigationview;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.bm.library.PhotoView;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="bottomnavigationview.luo.com.bottomnavigationview02">
+    package="bottomnavigationview.luo.com.bottomnavigationview">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- 它可以监听用户的连接状态并在用户重新连接到网络时重启之前失败的请求 -->
@@ -16,15 +16,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoStatusTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="bottomnavigationview.luo.com.bottomnavigationview.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".wallpaper.ClassificationActivity" />
-        <activity android:name=".PhotoShowActivity"></activity>
+        <activity android:name="bottomnavigationview.luo.com.bottomnavigationview.wallpaper.ClassificationActivity" />
+        <activity android:name="bottomnavigationview.luo.com.bottomnavigationview.PhotoShowActivity"></activity>
     </application>
 
 </manifest>

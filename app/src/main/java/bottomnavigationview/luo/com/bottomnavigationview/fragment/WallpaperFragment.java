@@ -1,11 +1,11 @@
-package bottomnavigationview.luo.com.bottomnavigationview02.fragment;
+package bottomnavigationview.luo.com.bottomnavigationview.fragment;
 
 
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 import android.text.TextPaint;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -17,15 +17,15 @@ import android.widget.RadioGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-import bottomnavigationview.luo.com.bottomnavigationview02.MainActivity;
-import bottomnavigationview.luo.com.bottomnavigationview02.R;
-import bottomnavigationview.luo.com.bottomnavigationview02.adapter.WallpaperPaperAdapter;
-import bottomnavigationview.luo.com.bottomnavigationview02.wallpaper.Fragment_Classification;
-import bottomnavigationview.luo.com.bottomnavigationview02.wallpaper.Fragment_Local;
-import bottomnavigationview.luo.com.bottomnavigationview02.wallpaper.Fragment_Recommend;
+import bottomnavigationview.luo.com.bottomnavigationview.MainActivity;
+import bottomnavigationview.luo.com.bottomnavigationview.R;
+import bottomnavigationview.luo.com.bottomnavigationview.adapter.WallpaperPaperAdapter;
+import bottomnavigationview.luo.com.bottomnavigationview.wallpaper.Fragment_Classification;
+import bottomnavigationview.luo.com.bottomnavigationview.wallpaper.Fragment_Local;
+import bottomnavigationview.luo.com.bottomnavigationview.wallpaper.Fragment_Recommend;
 
 /**
- * Created by luo on 2019/7/2.
+ * @author Chris on 2019/7/2.
  */
 
 public class WallpaperFragment extends Fragment implements RadioGroup.OnCheckedChangeListener, ViewPager.OnPageChangeListener {

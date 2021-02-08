@@ -1,12 +1,12 @@
-package bottomnavigationview.luo.com.bottomnavigationview02.http;
+package bottomnavigationview.luo.com.bottomnavigationview.http;
 
-import bottomnavigationview.luo.com.bottomnavigationview02.bean.BaseResponse;
+import bottomnavigationview.luo.com.bottomnavigationview.bean.BaseResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 /**
- * Created by luo on 2019/7/8.
+ * @author Chris on 2019/7/8.
  */
 
 public interface GetRequestInterface {

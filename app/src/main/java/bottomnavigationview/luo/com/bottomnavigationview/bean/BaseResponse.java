@@ -1,4 +1,4 @@
-package bottomnavigationview.luo.com.bottomnavigationview02.bean;
+package bottomnavigationview.luo.com.bottomnavigationview.bean;
 
 import java.util.List;
 

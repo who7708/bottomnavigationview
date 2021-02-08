@@ -1,14 +1,14 @@
-package bottomnavigationview.luo.com.bottomnavigationview02.fragment;
+package bottomnavigationview.luo.com.bottomnavigationview.fragment;
 
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import bottomnavigationview.luo.com.bottomnavigationview02.R;
+import bottomnavigationview.luo.com.bottomnavigationview.R;
 
 /**
  * Created by Administrator on 2019/7/2.

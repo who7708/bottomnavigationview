@@ -1,13 +1,13 @@
-package bottomnavigationview.luo.com.bottomnavigationview02.adapter;
+package bottomnavigationview.luo.com.bottomnavigationview.adapter;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 import java.util.List;
 
 /**
- * Created by luo on 2019/7/3.
+ * @author Chris on 2019/7/3.
  */
 
 public class WallpaperPaperAdapter extends FragmentPagerAdapter{

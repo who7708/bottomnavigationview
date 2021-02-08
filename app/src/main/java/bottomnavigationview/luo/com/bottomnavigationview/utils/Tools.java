@@ -1,14 +1,13 @@
-package bottomnavigationview.luo.com.bottomnavigationview02.utils;
+package bottomnavigationview.luo.com.bottomnavigationview.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.util.Log;
 
 import java.io.InputStream;
 
 /**
- * Created by luo on 2019/7/30.
+ * @author Chris on 2019/7/30.
  */
 
 public class Tools {
